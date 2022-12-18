@@ -1,5 +1,6 @@
 import React from "react";
 import "./tenfuse.css";
+import er from './er.drawio.png'
 const Tenfuse = () => {
   function sortNumber() {
     let arr = [];
@@ -28,21 +29,31 @@ const Tenfuse = () => {
     return ans;
   }
 
+
   return (
     <>
-      <div>
-        <div>
+      <div className="box">
+        <div className="box-result">
           <h4>ข้อที่ 1</h4>
           <p>Input : 1 7 2 3 11 9 30 19 21</p>
           <p>Output : {sortNumber()}</p>
         </div>
-        <div>
+        <div className="box-result">
           <h4>ข้อที่ 2</h4>
           <p>Input : 12:01:00 PM</p>
           <p>Output : {convertDateTime()}</p>
         </div>
-        <div>
-          <h4>ข้อที่ 6 ตอบ 11</h4>
+        <div className="box-result">
+          <h4>ข้อที่ 6 </h4>
+          <p>ตอบ 11</p>
+        </div>
+        <div className="box-result">
+          <h4>ข้อที่ 8</h4>
+          <p>Tenfuse2,Tenfuse3,Tenfuse4,Tenfuse1</p>
+        </div>
+        <div className="box-result">
+          <h4>ข้อที่ 10</h4>
+          <img src={er} alt="img" />
         </div>
       </div>
     </>
