@@ -40,7 +40,7 @@ const Tenfuse = () => {
         </div>
         <div className="box-result">
           <h4>ข้อที่ 2</h4>
-          <p>Input : 12:01:00 PM</p>
+          <p>Input : 07:05:45 PM</p>
           <p>Output : {convertDateTime()}</p>
         </div>
         <div className="box-result">
